@@ -58,16 +58,11 @@ const People =
         age: 18,
         sex: 'Female',
     },
+    
     {
         name: 'Jaiden',
         age: 25,
         sex: 'Male',
-    },
-
-    {
-        name: 'Alyah',
-        age: 29,
-        sex: 'Female',
     },
 
     {
