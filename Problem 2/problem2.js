@@ -5,4 +5,18 @@
     properties of the object. -- Make sure to incorprate the keyword this in here.
 */
 
+ let Object = {
+    name: 'Zonrox',
+    brand: 'Coca-cola',
+    price: '$9.99',
+    color: 'Black',
+    display: function(){
+        console.log(this.name);
+        console.log(this.brand);
+        console.log(this.price);
+        console.log(this.color);
+    }
+ }
+
+ Object.display();
 
