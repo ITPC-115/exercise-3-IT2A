@@ -11,50 +11,10 @@
 
 const users =[
     {
-        name: 'beK',
-        age: 22,
-        sex: 'Male',
+        name: 'beK','Niel','Onnich','neD','Pranses','Jebus','Leng','beD','Reb','Tsarls',
+        age: 22,23,22,22,22,22,22,22,22,22,
+        sex: 'Male','Male','Male','Male','Male','Female','Male','Male','Male',
     },
-    {
-        name: 'Niel',
-        age: 23,
-        sex: 'Male',
-    },
-    {
-        name: 'Onnich',
-        age: 22,
-        sex: 'Male',
-    },
-    {
-        name: 'neD',
-        age: 22,
-        sex: 'Male',
-    },
-    {
-        name: 'Pranses',
-        age: 22,
-        sex: 'Male',
-    },
-    {
-        name: 'Jebus',
-        age: 22,
-        sex: 'Male',
-    },
-    {
-        name: 'Leng',
-        age: 22,
-        sex: 'Female',
-    },
-    {
-        name: 'beD',
-        age: 22,
-        sex: 'Male',
-    },
-    {
-        name: 'Reb',
-        age: 22,
-        sex: 'Male',
-    }
 ]
 for(let i = 0; i < users.length; i++){
     console.log()
