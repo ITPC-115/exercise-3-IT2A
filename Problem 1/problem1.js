@@ -51,7 +51,9 @@ const users =[
         sex: 'Male',
     },
     {
-        
+        name: 'Reb',
+        age: 22,
+        sex: 'Male',
     }
 ]
 for(let i = 0; i < users.length; i++){
