@@ -14,7 +14,6 @@ let Person1 = {
     age: [20, 21, 23, 24, 22, 25, 23, 24, 26, 19],
     sex: ['Male', 'Male', 'Female', 'Male', 'Male', 'Male', 'Female', 'Male', 'Female', 'Female']
 }
-
 for(let i =0; i < 10; i++)
 {
     console.log(Person1.name[i], Person1.age[i], Person1.sex[i]);
