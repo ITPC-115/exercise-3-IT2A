@@ -10,9 +10,17 @@
 */
 
 var people = [
-    { name: "John", age: 24, sex: "Male" },
-    { name: "Marie", age: 27, sex: "Female" },
-    { name: "Lotty", age: 22, sex: "Female" },
+    { name: "John Nguyen", age: 24, sex: "Male" },
+    { name: "Marie Tan", age: 27, sex: "Female" },
+    { name: "Lotty Yu", age: 22, sex: "Female" },
+    { name: "Xi Jin", age: 56, sex: "Male"},
+    { name: "Tiu Di Si", age: 19 , sex: "Male" },
+    { name: "Bruce Wang", age: 23, sex: "Male" },
+    { name: "Phuc Nao", age: 19, sex: "Female" },
+    { name: "Sum Ting Wong", age: 20, sex: "Female" },
+    { name: "Ba Ding Oh", age: 21, sex: "Female" },
+    { name: "Ho Lee Shi T.", age: 28, sex: "Male" },
+
     
   ];
   

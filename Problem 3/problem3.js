@@ -26,4 +26,3 @@ student.introduce = function () {
 console.log(student);
 console.log(student.introduce());
 
-
