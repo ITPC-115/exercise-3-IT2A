@@ -10,3 +10,4 @@ object.brand = 'Vivo';
 object.price = 17999;
 object.color = 'Blue';
 
+console.log();
