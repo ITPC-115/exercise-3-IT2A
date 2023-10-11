@@ -11,7 +11,7 @@
 
 const UsersArray =[
     {
-        name: 'Reb',
+        name: 'beR',
         age: 22,
         sex: 'Male',
     },
