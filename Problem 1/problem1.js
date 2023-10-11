@@ -9,7 +9,7 @@
         -- make sure that name and sex are strings and age is a number when displayed
 */
 
-const users =[
+const UsersArray =[
     {
         name: 'Reb',
         age: 22,
@@ -61,6 +61,6 @@ const users =[
         sex: 'Male',
     }
 ]
-for(let i = 0; i < users.length; i++){
-    console.log(users.name[i],users.age[i],users.sex[i]);
+for(let i = 0; i < UsersArray.length; i++){
+    console.log(UsersArray.name[i],UsersArray.age[i],UsersArray.sex[i]);
 }
