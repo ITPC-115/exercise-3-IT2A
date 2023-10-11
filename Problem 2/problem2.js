@@ -5,10 +5,10 @@
     properties of the object. -- Make sure to incorprate the keyword this in here.
 */
 const object = {
-    name = 'Vivo T1 5G',
-    brand = 'Vivo',
-    price = 17999,
-    color = 'Blue',
+    name: 'Vivo T1 5G',
+    brand: 'Vivo',
+    price: 17999,
+    color: 'Blue',
 
     logName: function(){
         console.log(this.name);
