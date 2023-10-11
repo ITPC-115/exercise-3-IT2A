@@ -6,3 +6,16 @@
 */
 
 
+const Food = {
+name: "Oreo Strawberry",
+brand: "Oreo",
+price: 50,
+color: "Pink",
+logName: function(){
+console.log(this.name);
+console.log(this.brand);
+console.log(this.price);
+console.log(this.color);
+}
+}
+Food.logName();
