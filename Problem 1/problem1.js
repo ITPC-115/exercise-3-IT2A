@@ -62,5 +62,5 @@ const UsersArray =[
     }
 ]
 for(let i = 0; i < UsersArray.length; i++){
-    console.log(UsersArray.name[i],UsersArray.age[i],UsersArray.sex[i]);
+    console.log(UsersArray[i].name,UsersArray[i].age,UsersArray[i].sex);
 }
