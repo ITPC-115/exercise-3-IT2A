@@ -7,3 +7,13 @@
     Constraints: The generated random number must be between 1 and 100 only.
 
 */
+
+var game = Math.floor((Math.random() * 100) + 1);
+do{
+    var sagot = Number(window.prompt('Guess a number (1-100)'));
+}
+while(sagot != game);
+
+if(sagot = game){
+    console.log("Congratulations you got it right");
+}

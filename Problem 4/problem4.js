@@ -21,5 +21,13 @@
 
 const keyValue = 'age'
 // INSERT CODE HERE
+const nameMo = window.prompt('Enter name');
+const age = Number(window.prompt('Enter Age'));
+const tao = {name: nameMo, age: age};
 
-alert(`You are {insert final age} years old after 10 years`);
+for(let year = 2024; year < 2034; year++){
+    personalbar.age++;
+    console.log(year + ` '${tao.name}' ${tao.age}`);
+}
+
+alert(`You are ${Name[keyValue]} years old after 10 years`);
