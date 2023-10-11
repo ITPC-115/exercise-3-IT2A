@@ -21,4 +21,5 @@ var people = [
     var person = people[i];
     console.log(person.name + " " + person.age + " " + person.sex);
   }
+
   

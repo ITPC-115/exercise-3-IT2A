@@ -22,4 +22,3 @@ var product = {
   
   // Call the method to display the properties
   product.displayProperties();
-  
