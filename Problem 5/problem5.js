@@ -7,3 +7,5 @@
     Constraints: The generated random number must be between 1 and 100 only.
 
 */
+const number = (Math.floor(Math.random() * 100) + 1);
+console.log(number);
