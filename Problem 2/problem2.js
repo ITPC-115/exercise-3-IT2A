@@ -8,7 +8,7 @@
 let Gamit ={
     name: 'Vans Nike Honda Yamaha',
     brand:'Vans',
-    price: 2599.00 ,
+    price: 2599.00,
     color:'white',
   
     logeName: function() {
