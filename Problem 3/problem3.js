@@ -21,7 +21,7 @@ student.age = age;
 student.subjects = subjects;
 
 student.display = function(){
-    console.log("My name is " + this.name + ", " + this.yearLevel + " year student and " + this.age + " years old.")
+    console.log("My name is " + this.name + ", " + this.yearLevel.toLowerCase() + " year student and " + this.age + " years old.")
 };
 console.log(student);
 student.display();
