@@ -7,3 +7,11 @@
     Constraints: The generated random number must be between 1 and 100 only.
 
 */
+let mission = prompt('Enter a number:');
+let n = Math.random() * 10;
+
+console.log('Chosen number:' , mission);
+console.log('Random:' , n.toFixed(0));
+if (mission == n){
+    console.log('Congratulations you got it right');
+}
