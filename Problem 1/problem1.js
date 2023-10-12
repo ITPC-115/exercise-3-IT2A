@@ -48,7 +48,7 @@ const users =[
     {
         name: "Leng",
         age: 22,
-        sex: "Male"
+        sex: "Female"
     },
     {
         name: "beD",
