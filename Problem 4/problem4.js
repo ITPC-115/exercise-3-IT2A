@@ -30,4 +30,4 @@ for (let i = 0; i < 10; i++) {
     user.age++; 
   }
 
-alert(`You are ${finalAge} years old after 10 years.`);
+alert(`You are ${user.age} years old after 10 years.`);
