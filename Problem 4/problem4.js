@@ -21,14 +21,13 @@
 
 const keyvalue = 'age';
 
-const name1 = window.prompt('Enter your name: ');
-const initialAge = Number(window.prompt('Enter your age: '));
-const tao = {name: name1, age: initialAge};
+const name1 = prompt('Enter your name: ');
+const initialAge = parseInt(prompt('Enter your age: '));
+const person = {name: name1, age: initialAge};
 
-for(let year = 2024; year <= 2033; year++)
-{
-    console.log(year + ` '${tao.name}' ${tao.age + 1}`);
-    tao.age++;
+for(let i = 2024; i < 2034; i++)
+{   
+    person[keyvalue]++;
+    console.log(i + ` '${person.name}' ${person[keyvalue]}`);   
 }
-
-alert(`You are ${tao[keyvalue]} years old after 10 years`);
+alert(`You are ${person[keyvalue]}  years old after 10 years`);
