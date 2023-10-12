@@ -8,13 +8,17 @@
     Lotty 22 Female
         -- make sure that name and sex are strings and age is a number when displayed
 */
-
-let Person1 = {
-    name: ['Khryz', 'Kyle', 'Karla', 'Tyshaun', 'Yhl', 'Rayveen', 'Crizle', 'Niel', 'Cess', 'Shandy'],
-    age: [20, 21, 23, 24, 22, 25, 23, 24, 26, 19],
-    sex: ['Male', 'Male', 'Female', 'Male', 'Male', 'Male', 'Female', 'Male', 'Female', 'Female']
-}
+const people = [{name: 'Khryz', age: 20, sex: 'Male'},
+               {name: 'Kyle', age: 20, sex: 'Male'},
+               {name: 'Karla', age: 20, sex: 'Female'},
+               {name: 'Tyshaun', age: 20, sex: 'Male'},
+               {name: 'Yhl', age: 20, sex: 'Male'},
+               {name: 'Rayveen', age: 20, sex: 'Male'},
+               {name: 'Crizle', age: 20, sex: 'Female'},
+               {name: 'Niel', age: 20, sex: 'Male'},
+               {name: 'Princess', age: 20, sex: 'Female'},
+               {name: 'Shandy', age: 20, sex: 'Female'},];
 for(let i =0; i < 10; i++)
 {
-    console.log(Person1.name[i], Person1.age[i], Person1.sex[i]);
+    console.log(people[i]);
 }
