@@ -8,7 +8,7 @@
 
 */
 
-const number = (Math.floor(Math.random() * 100) + 1);
+const number = Math.floor(Math.random() * 100);
 
 do{
     var guessNumber = Number(window.prompt('Guess the number'));
