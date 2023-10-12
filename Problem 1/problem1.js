@@ -9,58 +9,58 @@
         -- make sure that name and sex are strings and age is a number when displayed
 */
 
-const UsersArray =[
+const users =[
     {
-        name: 'beR',
+        name: "beR",
         age: 22,
-        sex: 'Male',
+        sex: "Male",
     },
     {
-        name: 'beK',
+        name: "beK",
         age: 22,
-        sex: 'Male',
+        sex: "Male",
     },
     {
-        name: 'Niel',
+        name: "Niel",
         age: 23,
-        sex: 'Male',
+        sex: "Male"
     },
     {
-        name: 'Onnich',
+        name: "Onnich",
         age: 22,
-        sex: 'Male',
+        sex: "Male"
     },
     {
-        name: 'neD',
+        name: "neD",
         age: 22,
-        sex: 'Male',
+        sex: "Male"
     },
     {
-        name: 'Pranses',
+        name: "Pranses",
         age: 22,
-        sex: 'Male',
+        sex: "Male"
     },
     {
-        name: 'Jebus',
+        name: "Jebus",
         age: 22,
-        sex: 'Male',
+        sex: "Male"
     },
     {
-        name: 'Leng',
+        name: "Leng",
         age: 22,
-        sex: 'Female',
+        sex: "Male"
     },
     {
-        name: 'beD',
+        name: "beD",
         age: 22,
-        sex: 'Male',
+        sex: "Male"
     },
     {
-        name: 'Tsarls',
+        name: "Tsarls",
         age: 22,
-        sex: 'Male',
+        sex: "Male"
     }
 ]
-for(let i = 0; i < UsersArray.length; i++){
-    console.log(UsersArray[i].name,UsersArray[i].age,UsersArray[i].sex);
-}
+users.forEach((users) => {
+  console.log(`${users.name} ${users.age} ${users.sex}`);
+});
