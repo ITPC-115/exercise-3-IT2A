@@ -25,9 +25,9 @@ const user = {};
 user.name = prompt("Enter your name: ");
 user.age = parseInt(prompt("Enter your age: "));
 
-for (let i = 0; i <= 10; i++) {
-    console.log(2024 + i, user.name, user.age + i);
-}
-const finalAge = user.age + 10;
+for (let i = 0; i < 10; i++) {
+    console.log(`${2024 + i} '${user.name}' ${user.age + i}`);
+    user.age++; 
+  }
 
 alert(`You are ${finalAge} years old after 10 years.`);
