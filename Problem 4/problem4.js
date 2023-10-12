@@ -22,12 +22,13 @@
 const keyValue = 'age'
 // INSERT CODE HERE
 const nameMo = window.prompt('Enter name');
-const age = Number(window.prompt('Enter Age'));
-const tao = {name: nameMo, age: age};
+const agee = Number(window.prompt('Enter Age'));
+const tao = {name: nameMo, age: agee};
 
 for(let year = 2024; year < 2034; year++){
-    personalbar.age++;
-    console.log(year + ` '${tao.name}' ${tao.age}`);
+    console.log(year + ` '${tao.name}' ${tao.age +1}`);
+    tao.age++;
+    
 }
 
 alert(`You are ${tao[keyValue]} years old after 10 years`);
