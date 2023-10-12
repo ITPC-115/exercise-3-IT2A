@@ -19,15 +19,16 @@
     2033 'Kim John Bautista' 34
 */
 
-const keyValue = 'age';
-const user = {};
+var name = prompt("Please enter your name:");
+var age = parseInt(prompt("Please enter your age:"));
 
-user.name = prompt("Enter your name: ");
-user.age = parseInt(prompt("Enter your age: "));
+var user = {
+    name: name,
+    age: age
+};
 
-for (let i = 0; i < 10; i++) {
-    console.log(`${2024 + i} '${user.name}' ${user.age + i}`);
-    user.age++; 
-  }
+for (var i = 0; i < 10; i++) {
+    console.log((2023 + i) + " '" + user.name + "' " + (user.age + i));
+}
 
-alert(`You are ${user.age} years old after 10 years.`);
+alert(`You are ${user.age + 10} years old after 10 years.`);
