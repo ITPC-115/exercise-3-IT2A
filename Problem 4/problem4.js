@@ -30,4 +30,4 @@ for(let year = 2024; year < 2034; year++){
     console.log(year + ` '${tao.name}' ${tao.age}`);
 }
 
-alert(`You are ${Name[keyValue]} years old after 10 years`);
+alert(`You are ${tao[keyValue]} years old after 10 years`);
