@@ -8,7 +8,7 @@
 
 */
 
-var game = Math.round((Math.random() * 100));
+var game = Math.floor((Math.random() * 100));
 do{
     var answer = Number(window.prompt('Enter the guess a number (1-100)'));
 }
