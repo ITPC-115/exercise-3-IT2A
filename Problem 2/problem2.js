@@ -5,7 +5,7 @@
     properties of the object. -- Make sure to incorprate the keyword this in here.
 */
 
-const Car = {
+const car = {
     name: 'Countach LPI 800-4',
     brand: 'Lamborghini',
     price: 119000000,
@@ -17,5 +17,5 @@ const Car = {
         console.log(this.color);
     }
 }
-Car.logName();
+car.logName();
 
