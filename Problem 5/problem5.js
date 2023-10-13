@@ -7,7 +7,7 @@
     Constraints: The generated random number must be between 1 and 100 only.
 
 */
-var x = Math.round((Math.random() * 100));
+var x = Math.floor((Math.random() * 100));
 var answer;
 
 do {
