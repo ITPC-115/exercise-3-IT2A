@@ -22,12 +22,12 @@
 const keyValue = 'age'
 // INSERT CODE HERE
 
-const ngalan = window.prompt('Enter your name');
+const naame = window.prompt('Enter your name');
 const before = Number(window.prompt('Enter your age'));
-const human = {name: ngalan, age: before};
+const human = {name: naame, age: before};
 
-for(let tuig = 2024; tuig < 2034; tuig++){
-    human.age++;
-    console.log(tuig + ` '${human.name}' ${human.age}`);
+for(let year = 2024; year < 2034; year++){
+    human[keyValue]++;
+    console.log(year + ` '${human.name}' ${human[keyValue]}`);
 }
 alert(`You are ${human[keyValue]} years old after 10 years`);
