@@ -14,4 +14,13 @@ const yearLevel = window.prompt('Enter Your Year Level (First, Second, Third, Fo
 const age = window.prompt('Enter Age');
 const subjects = [{name: 'RE112', schedule: 'MWF'},{name:'SOSC143', schedule:'TTh'}];
 
+student.name = studentName;
+student.yearLvl = yearLevel.toUpperCase();
+student.age = Number(age);
+student.subjects = subjects;
 
+student.showcase = function(){
+    console.log("My name is " + student.name + ", " + this.yearLvl.toLowerCase() +  " year student and " + this.age +  " years old.");
+}
+console.log(student);
+student.showcase(); 

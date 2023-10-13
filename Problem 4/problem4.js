@@ -19,7 +19,16 @@
     2033 'Kim John Bautista' 34
 */
 
-const keyValue = 'age'
-// INSERT CODE HERE
 
-alert(`You are {insert final age} years old after 10 years`);
+const keyValue = 'age'
+
+const naame = window.prompt('Enter your name');
+const previous = Number(window.prompt('Enter your age'));
+const human = {name: naame, age: previous};
+
+for(let year = 2024; year < 2034; year++){
+    human[keyValue]++;
+    console.log(year + ` '${human.name}' ${human[keyValue]}`);
+}
+
+alert(`You are ${human[keyValue]} years old after 10 years`);
