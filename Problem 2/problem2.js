@@ -14,11 +14,8 @@ const item =
   
     
     displayProperties() {
-      console.log(`Name: ${this.name}`);
-      console.log(`Brand: ${this.brand}`);
-      console.log(`Price: ${this.price}`);
-      console.log(`Color: ${this.color}`);
-    },
+      console.log(`Name: ${this.name} Brand: ${this.brand} Price: ${this.price} Color: ${this.color}`);
+    }
   };
 
   item.displayProperties();
