@@ -1,10 +1,16 @@
-/*
-    Define an array that contains 10 objects which has the properties
-    name, age, and sex. Iterate throughout the array and display each of their name, age, and sex (one object per line in console).
+const people = [
+    { name: "John", age: 24, sex: "Male" },
+    { name: "Marie", age: 27, sex: "Female" },
+    { name: "Lotty", age: 22, sex: "Female" },
+    { name: "Hina", age: 16, sex: "Female" },
+    { name: "Kenny", age: 20, sex: "Male" },
+    { name: "Loppy", age: 21, sex: "Female" },
+    { name: "Sam", age: 25, sex: "Male" },
+    { name: "Danny", age: 23, sex: "Male" },
+    { name: "Keller", age: 29, sex: "Female" },
+    { name: "Hans", age: 28, sex: "Male" },
+];
 
-    Example:
-    John 24 Male
-    Marie 27 Female
-    Lotty 22 Female
-        -- make sure that name and sex are strings and age is a number when displayed
-*/
+people.forEach(person => {
+    console.log(`${person.name} ${person.age} ${person.sex}`);
+});
