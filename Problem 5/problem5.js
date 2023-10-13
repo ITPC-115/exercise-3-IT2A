@@ -8,7 +8,7 @@
 
 */
 
-var x = Math.floor((Math.random() * 100));
+var x = Math.floor(Math.random() * 100);
 do{
     var answer = Number(window.prompt('Enter guessed number (1-100)'));
 }while(answer != x);
