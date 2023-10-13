@@ -6,9 +6,9 @@
 */
 const product = {
     name: "Softdrink",
-    brand: "coca-cola",
+    brand: "Pepsi",
     price: 20.00,
-    color: "red",
+    color: "blue",
     displayProperties: function() {
         console.log(`Name: ${this.name}`);
         console.log(`Brand: ${this.brand}`);
