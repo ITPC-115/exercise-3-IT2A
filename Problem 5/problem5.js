@@ -9,33 +9,13 @@
 */
 
 
+let num = Math.floor(Math.random() * 100)+1;
 
-let quest = prompt("Enter a number:");
-let num = Math.random() * 100;
+do {
+    var what = prompt("Enter a number: ")
+} while (what != num);
 
-console.log('Chosen number:', quest);
-console.log('Random:', num.toFixed(0));
-
-
-while (true) {
-
-     
-     if (quest > num) {
-        quest = prompt("Enter a number:");
-        
-        console.log('Chosen number:', quest);
-        console.log('Random:', num.toFixed(0));
-    }
-     if (quest < num) {
-        quest = prompt("Enter a number:");
-        
-        console.log('Chosen number:', quest);
-        console.log('Random:', num.toFixed(0));
-    }
-    else if(quest == num) {
-        console.log("Congratulations you got it right");
-        
-    }
-    
+if (what == num) {
+    console.log("Congratulations you got it right");
 }
 

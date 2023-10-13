@@ -12,16 +12,15 @@ const student = new Object();
 const studentName =window.prompt('Enter Your Name');
 const yearLevel = window.prompt('Enter Your Year Level (First, Second, Third, Fourth)');
 const age = window.prompt('Enter Age');
-const subjects = [{name: 'RE112', schedule: 'MWF'},{name:'SOSC143', schedule:'TTh'}];
+const subject = [{name: 'RE112', schedule: 'MWF'},{name:'SOSC143', schedule:'TTh'}];
 
 student.name = studentName;
-student.yearLevel = yearLevel.toUpperCase();
-student.age = Number(age);
-student.subject = subjects;
+student.yearL = yearLevel.toUpperCase();
+student.agee = Number(age);
+student.subjects = subject;
 
-student.info = () => {
-    console.log(`My name is ${studentName}, ${yearLevel}, ${age}, ${subjects}`);
+student.info = function(){
+    console.log("My name is " + this.name + " " + this.yearL.toLowerCase() + " year student and " + this.agee + " years old.");
 }
-
 console.log(student);
 student.info();
