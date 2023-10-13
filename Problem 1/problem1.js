@@ -9,13 +9,19 @@
         -- make sure that name and sex are strings and age is a number when displayed
 */
 
-let People = {
-    name: ['Tubol','Lubot','Bahu','Khaa','Hit Tlog','Sum','Ting','Low','Khryz','Kyle'],
-    age: [24,12,33,23,65,34,4,6,34,21],
-    sex: ['Male','Female','Male','Male','Female','Female','Male','Female','Male','Male']
-}
+let People = [
+    {name:'Jison', age: 24, sex:'Male'},
+    {name:'Karla', age: 21, sex:'Female'},
+    {name:'Khryz', age: 20, sex:'Male'},
+    {name:'Kyle', age: 20, sex:'Male'},
+    {name:'Popoy', age: 25, sex:'Male'},
+    {name:'Nelson', age: 22, sex:'Male'},
+    {name:'Ipsum', age: 26, sex:'Female'},
+    {name:'Germa', age: 27, sex:'Female'},
+    {name:'Galan', age: 28, sex:'Male'},
+    {name:'Arjon', age: 20, sex:'Female'},
+]
 
-
-for (let i=0 ; i < 10 ; i++){
-    console.log(People.name[i],People.age[i],People.sex[i]);
-}
+People.forEach(person => {
+    console.log(person.name, Number(person.age), person.sex);
+});
