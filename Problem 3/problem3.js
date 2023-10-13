@@ -20,7 +20,7 @@ student.age = Number(age);
 student.subjects = subjects;
 
 student.showcase = function(){
-    console.log(`My name is ${studentName}, ${yearLevel}, ${age}, ${subjects}`);
+    console.log("My name is " + student.name + ", " + this.yearLevel.toLowerCase() +  " year student and " + this.age +  " years old.");
 }
 console.log(student);
-student.showcase();
+student.showcase(); 
