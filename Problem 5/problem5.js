@@ -10,10 +10,10 @@
 
 var game = Math.floor((Math.random() * 100) + 1);
 do{
-    var sagot = Number(window.prompt('Guess a number (1-100)'));
+    var answer = Number(window.prompt('Guess a number (1-100)'));
 }
-while(sagot != game);
+while(answer != game);
 
-if(sagot = game){
+if(answer = game){
     console.log("Congratulations you got it right");
 }
