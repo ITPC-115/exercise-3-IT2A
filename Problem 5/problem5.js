@@ -21,17 +21,17 @@ function startGuessingGame() {
   function guessNumber() {
     const userGuess = parseInt(prompt("Guess the number between 1 and 100:"));
 
-    if (isNaN(userGuess) || userGuess < minNumber || userGuess > maxNumber) {
-      alert("Please enter a valid number between 1 and 100.");
-      guessNumber();
-      return;
-    }
+    
 
     attempts++;
 
     if (userGuess === randomNumber) {
       console.log("Congratulations, you got it right!");
       console.log("Total attempts:", attempts);
+    } else if (isNaN(userGuess) || userGuess < minNumber || userGuess > maxNumber) {
+      alert("Please enter a valid number between 1 and 100.");
+      guessNumber();
+      return;
     } else if (userGuess < randomNumber) {
       alert("Try a higher number.");
       guessNumber();
