@@ -7,7 +7,7 @@
     Constraints: The generated random number must be between 1 and 100 only.
 
 */
-const randomNumber = Math.floor(Math.random() * 100) + 1;
+const randomNumber = Math.floor(Math.random() * 101) + 1;
 
 console.log(`Generated Random Number: ${randomNumber}`);
 
