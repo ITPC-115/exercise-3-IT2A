@@ -28,8 +28,8 @@ const person = {name: namee, age: initial};
 
 for(let year = 2024; year < 2034; year++)
 {
-    person.age++;
-    console.log(year + ` '${person.name}' ${person.age}`);
+    person[keyValue]++;
+    console.log(year + ` '${person.name}' ${person[keyValue]}`);
 }
 
 alert(`You are ${person[keyValue]} years old after 10 years`);
