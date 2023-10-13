@@ -31,7 +31,6 @@ const userObject = {
 
 for (let i = 0; i < 10; i++) {
     console.log(`${2024 + i} '${userObject.name}' ${userObject.age + i}`);
+    userObject[keyValue]++;
 }
-
-userObject.age += 10;
 alert(`You are ${userObject[keyValue]} years old after 10 years`);
