@@ -7,3 +7,26 @@
     Constraints: The generated random number must be between 1 and 100 only.
 
 */
+
+const randomN = Math.floor(Math.random() * 100) + 1;
+
+console.log(`Generated random number: ${randomN}`);
+
+function playGuessingG()
+{
+    while (true) {
+        const uGuess = parseInt(prompt('Guess the number (between 1 and 100):'));
+
+        if (isNaN(uGuess) || uGuess < 1 || uGuess > 100)
+        { 
+            alert ("Enter a valid number between 1 to 100");
+        } else if (uGuess === randomN)
+         {
+            console.log('Congratulations you got it right!');
+            break;
+         } else {
+            alert ('Wrong guess. Try again');
+         }
+    }
+}
+playGuessingG();
