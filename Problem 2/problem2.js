@@ -5,7 +5,7 @@
     properties of the object. -- Make sure to incorprate the keyword this in here.
 */
 
-const Obj = {
+const obj = {
     name: 'Poco X3 Pro',
     brand: 'Xiaomi',
     price: 18000,
