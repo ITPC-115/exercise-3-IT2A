@@ -20,7 +20,9 @@ do {
         console.log("Input lower value");
         alert('Input lower value');
     }
-} while (answer !== x);
+} while (answer !== x){
+    console.log("Congratulations you got it right");
+    alert('Congratulations you got it right');
+}
 
-console.log("Congratulations you got it right");
-alert('Congratulations you got it right');
+
