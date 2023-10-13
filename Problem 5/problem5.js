@@ -8,10 +8,10 @@
 
 */
 
-const number = Math.floor(Math.random() * 5) + 1;
+var number = Math.round(Math.random() * 100);
 
 do{
     var guessNumber = Number(window.prompt('Guess the number'));
+    console.log(number);
 }while(guessNumber != number);
-
 console.log('Congratulations you got it right');
