@@ -15,7 +15,6 @@ const randomNumber = Math.floor(Math.random() * (max - min + 1));
 
 var userGuess = Number(window.prompt('Guess the number (between 1 and 100):'));
 
-if (userGuess !== randomNumber) {
   do {
     if (userGuess < randomNumber) {
       userGuess = Number(window.prompt('Try higher:'));
@@ -25,9 +24,6 @@ if (userGuess !== randomNumber) {
   } 
   while (userGuess !== randomNumber);
   alert('Congratulations! You got it right');
-} 
-else {
-  alert('Congratulations! You got it right');
-}
+
 
 
