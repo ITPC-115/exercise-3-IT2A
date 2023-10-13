@@ -8,12 +8,12 @@
 
 */
 
-var game = Math.floor((Math.random() * 100) + 1);
+var game = Math.round((Math.random() * 100));
 do{
-    var answer = Number(window.prompt('Guess a number (1-100)'));
+    var answer = Number(window.prompt('Enter the guess a number (1-100)'));
 }
 while(answer != game);
-
-if(answer = game){
+{
     console.log("Congratulations you got it right");
+    alert('Congratulations you got it right');
 }
