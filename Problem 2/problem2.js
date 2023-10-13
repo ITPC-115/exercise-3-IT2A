@@ -5,7 +5,7 @@
     properties of the object. -- Make sure to incorprate the keyword this in here.
 */
 
-let Gamit ={
+let items ={
     name: 'Vans Nike Honda Yamaha',
     brand:'Vans',
     price: 2599.00,
@@ -19,4 +19,4 @@ let Gamit ={
 }
 }
 
-Gamit.logeName();
+items.logeName();
