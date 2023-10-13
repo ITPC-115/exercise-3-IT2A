@@ -22,5 +22,5 @@ const hoomans = [
 ];
 
 for (let peeps of hoomans) {
-    console.log(`${peeps.name} ${peeps.age} ${peeps.sex}`);
+    console.log(`${peeps.name} ${Number(peeps.age)} ${peeps.sex}`);
 }
