@@ -20,6 +20,20 @@
 */
 
 const keyValue = 'age'
-// INSERT CODE HERE
+
+const name = prompt('Enter your name:');
+let age = parseInt(prompt('Enter your age:'));
+
+const person = {
+  name: name,
+  age: age,
+};
+
+for (let i = 2024; i <= 2033; i++) {
+  console.log(${i} '${person.name}' ${person[keyValue]});
+  person[keyValue]++;
+}
+
+alert(Your age after ten years will be ${person[keyValue]});
 
 alert(`You are {insert final age} years old after 10 years`);
