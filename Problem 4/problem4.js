@@ -26,8 +26,8 @@ const agee = Number(window.prompt('Enter Age'));
 const tao = {name: nameMo, age: agee};
 
 for(let year = 2024; year < 2034; year++){
-    console.log(year + ` '${tao.name}' ${tao.age +1}`);
-    tao.age++;
+    tao[keyValue]++;
+    console.log(year + ` '${tao.name}' ${tao[keyValue]}`);
     
 }
 
