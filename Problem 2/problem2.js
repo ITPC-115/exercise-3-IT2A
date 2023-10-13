@@ -4,10 +4,10 @@
     make sure that when the code is run in the browser it will log the
     properties of the object. -- Make sure to incorprate the keyword this in here.
 */
-const properties = {
+const property = {
     name:'Nena',
     brand: 'Converse',
-    price: '24,00',
+    price: '24,000',
     color: 'Pink',
 
     display: function() {
@@ -20,6 +20,6 @@ const properties = {
 
     }
 };
-properties.display();
+property.display();
 
 
