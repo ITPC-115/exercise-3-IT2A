@@ -21,7 +21,6 @@ let kulto = [
     {name: 'Cherry' , age: 25 , sex: 'Female'},
  ];
 
- for (let x = 0; x < kulto.length; x++){
-    let members = kulto[x];
-    console.log(members.name + " " + members.age + " " + members.sex);
- }
+ kulto.forEach(function(kulto){
+    console.log(kulto.name + " " + kulto.age + " " + kulto.sex);
+ });
