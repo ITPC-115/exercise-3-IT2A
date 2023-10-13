@@ -14,4 +14,12 @@ const yearLevel = window.prompt('Enter Your Year Level (First, Second, Third, Fo
 const age = window.prompt('Enter Age');
 const subjects = [{name: 'RE112', schedule: 'MWF'},{name:'SOSC143', schedule:'TTh'}];
 
+let intro;
+
+
+
+console.log("{name : " + studentName + ", yearLvl: " + yearLevel + ", age: " + age + ", subjects: Array(" + subjects.length + "), introduce f}");
+console.log("My name is " + studentName +", " + yearLevel + " year student and " + age + "years old.");
+document.write("My name is " + studentName +", " + yearLevel + " year student and " + age + "years old.");
+
 
