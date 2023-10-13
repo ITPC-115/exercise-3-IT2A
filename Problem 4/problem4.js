@@ -27,12 +27,12 @@ var age = Number(window.prompt('Enter age'));
 var year = 2023;
 
 var user = new Object();
-user.namE = name;
+user.name = name;
 user.age = age;
 user.display = function(){
     for(let i = year;i<year+10;i++){
-        console.log(i+1,user.namE,user.age+1);
-        user.age++;
+        user[keyValue]++;
+        console.log((i+1) + ` '${user.name}' ${user[keyValue]}`);
     }
 }
 
