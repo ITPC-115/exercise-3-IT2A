@@ -7,11 +7,12 @@
     Constraints: The generated random number must be between 1 and 100 only.
 
 */
-let mission = prompt('Enter a number:');
-let n = Math.random() * 10;
+const n = Math.floor(Math.random() * 10) + 1;
 
-console.log('Chosen number:' , mission);
-console.log('Random:' , n.toFixed(0));
-if (mission == n){
-    console.log('Congratulations you got it right');
+do{
+    var guess = window.prompt("Enter a number");
+}while(guess != n);
+
+if(guess == n){
+    console.log("Congratulations you got it right");
 }
