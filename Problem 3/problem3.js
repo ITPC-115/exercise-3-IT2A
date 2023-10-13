@@ -19,7 +19,7 @@ student.introduce = function () {
     student.yearLvl = yearLevel.toUpperCase();
     student.age = Number(age);
     student.subjects = subjects;
-    
+
     console.log(`My name is ${this.name}, ${this.yearLvl.toLowerCase()} year student and ${this.age} years old.`);
   };
   
