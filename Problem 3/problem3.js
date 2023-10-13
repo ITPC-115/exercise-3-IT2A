@@ -9,9 +9,19 @@
 */
 
 const student = new Object();
-const studentName =window.prompt('Enter Your Name');
-const yearLevel = window.prompt('Enter Your Year Level (First, Second, Third, Fourth)');
-const age = window.prompt('Enter Age');
-const subjects = [{name: 'RE112', schedule: 'MWF'},{name:'SOSC143', schedule:'TTh'}];
+const studentName = window.prompt('Enter Your Name');
+const yearLevel = window.prompt('Enter Your Year Level (First, Second, Third, Fourth)').toUpperCase();
+const age = parseInt(window.prompt('Enter Age'));
+const subjects = [{ name: 'ITCC-114', schedule: 'TTh' }, { name: 'ITPC-115', schedule: 'MWF' }];
 
+student.name = studentName;
+student.yearLvl = yearLevel;
+student.age = age;
+student.subjects = subjects;
+student.introduce = function () {
+  return My name is ${this.name},a ${this.yearLvl.toLowerCase()} year student, and I am ${this.age} years old.;
+};
+
+console.log(student);
+console.log(student.introduce());
 
