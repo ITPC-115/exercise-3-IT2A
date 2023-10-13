@@ -9,12 +9,12 @@
 */
 
 const student = new Object();
-const Name =window.prompt('Enter Your Name');
+const name =window.prompt('Enter Your Name');
 const yearLevel = window.prompt('Enter Your Year Level (First, Second, Third, Fourth)');
 const age = window.prompt('Enter Age');
 const subjects = [{name: 'RE112', schedule: 'MWF'},{name:'SOSC143', schedule:'TTh'}];
 
-student.name = Name;
+student.name = name;
 student.yearLvl = yearLevel.toUpperCase();
 student.age = age;
 student.subjects = subjects;
