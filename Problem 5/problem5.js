@@ -11,7 +11,7 @@
 // Random number
 const min = 1;
 const max = 100;
-const randomNumber = Math.floor(Math.random() * (max - min + 1));
+const randomNumber = Math.floor(Math.random() * 100) + 1;
 
 var userGuess = Number(window.prompt('Guess the number (between 1 and 100):'));
 
