@@ -38,7 +38,4 @@ for (let i = 2024; i <= 2033; i++) {
 }
 
 
-alert(`Your age after ten years will be ${person[keyValue]}`);
-
-
-alert(`You are {insert final age} years old after 10 years`);
+alert(`You are ${person[keyValue]} years old after 10 years`);
