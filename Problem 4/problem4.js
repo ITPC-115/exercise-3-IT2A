@@ -28,7 +28,8 @@ var user = {
 };
 
 for (var i = 0; i < 10; i++) {
-    console.log((2024 + i) + " '" + user.name + "' " + (user.age + i));
+    console.log((2024 + i) + " '" + user.name + "' " + (user.age));
+    user.age++;
 }
 
-alert(`You are ${user.age + 9} years old after 10 years.`);
+alert(`You are ${user.age} years old after 10 years.`);
