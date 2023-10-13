@@ -16,10 +16,17 @@ const subjects = [{name: 'RE112', schedule: 'MWF'},{name:'SOSC143', schedule:'TT
 
 let intro;
 
+student.name = studentName;
+student.yearlvl = yearLevel;
+student.age = age;
+student.subjects = subjects;
+student.intro = function() {
+    console.log("My name is " + this.name +", " + this.yearlvl + " year student and " + this.age + " years old.")
 
+}
 
 console.log("{name : " + studentName + ", yearLvl: " + yearLevel + ", age: " + age + ", subjects: Array(" + subjects.length + "), introduce f}");
-console.log("My name is " + studentName +", " + yearLevel + " year student and " + age + "years old.");
-document.write("My name is " + studentName +", " + yearLevel + " year student and " + age + "years old.");
+document.write("My name is " + studentName +", " + yearLevel + " year student and " + age + " years old.");
+student.intro();
 
 
