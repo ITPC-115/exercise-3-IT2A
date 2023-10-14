@@ -7,3 +7,12 @@
     Constraints: The generated random number must be between 1 and 100 only.
 
 */
+
+var x = Math.floor((Math.random() * 100)+1);
+do{
+    var answer = Number(window.prompt('Enter guessed number (1-100)'));
+}while(answer != x);
+
+if (answer = x){
+    console.log("Congratulations you got it right");
+}
