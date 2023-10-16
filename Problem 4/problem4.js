@@ -20,6 +20,37 @@
 */
 
 const keyValue = 'age'
-// INSERT CODE HERE
+function askUser() {
+    const name = prompt('Enter your name:');
+    const age = parseInt(prompt('Enter your age:'));
+    return { name, age };
+   }
+   
+   function simulateAging(user) {
+    for (let year = 2024; year <= 2033; year++) {
+       user.age++;
+       console.log(`${year} '${user.name}' ${user.age}`);
+    }
+    return user;
+   }
+   
+   function displayFinalAge(user) {
+    alert(`You are ${user.age} years old after 10 years`);
+   }
+   
+   
+   function main() {
+    const user = askUser();
+    const finalUser = simulateAging(user);
+    displayFinalAge(finalUser);
+   }
+   
+main();
 
-alert(`You are {insert final age} years old after 10 years`);
+
+
+
+
+
+
+
