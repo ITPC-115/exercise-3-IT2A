@@ -1,7 +1,14 @@
-const number = (Math.floor(Math.random() * 100) + 1);
+const randomNumber = Math.floor(Math.random() * 100) + 1;
+console.log(`Generated random number: ${randomNumber}`);
 
-do{
-    var guessNumber = Number(window.prompt('Guess the number'));
-}while(guessNumber != number);
+let guessNumber = parseInt(prompt("Guess a number between 1 and 100:"));
 
-console.log('Congratulations you got it right');
+while (guessNumber !== randomNumber) {
+    if (guessNumber < randomNumber) {
+        guessNumber = parseInt(prompt("Too low! Guess again:"));
+    } else {
+        guessNumber = parseInt(prompt("Too high! Guess again:"));
+    }
+}
+console.log("Congratulations you got it right!");
+
