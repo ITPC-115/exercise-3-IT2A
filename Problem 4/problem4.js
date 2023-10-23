@@ -20,6 +20,19 @@
 */
 
 const keyValue = 'age'
-// INSERT CODE HERE
 
-alert(`You are {insert final age} years old after 10 years`);
+const name = prompt("Please enter your name:");
+const initialAge = parseInt(prompt("Please enter your age:"));
+
+const person = {
+  name: name,
+  age: initialAge,
+};
+
+for (let i = 0; i < 10; i++) {
+  console.log(`${new Date().getFullYear() + i} '${person.name}' ${person.age + i}`);
+}
+
+const finalAge = initialAge + 10;
+
+alert(`You are ${finalAge} years old after 10 years`);

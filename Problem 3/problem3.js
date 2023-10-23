@@ -8,10 +8,27 @@
     My name is Kim John Bautista, second year student and 20 years old.
 */
 
+const studentName = 'Errol Anthony A. De Pedro';
+const yearLevel = 'SECOND';
+const age = 20;
+const subjects = ['ITCC114','ITCC115'];
+
 const student = new Object();
-const studentName =window.prompt('Enter Your Name');
-const yearLevel = window.prompt('Enter Your Year Level (First, Second, Third, Fourth)');
-const age = window.prompt('Enter Age');
-const subjects = [{name: 'RE112', schedule: 'MWF'},{name:'SOSC143', schedule:'TTh'}];
+student.name = studentName;
+student.yearLvl = yearLevel.toUpperCase();
+student.age = parseInt(age);
+student.subjects = subjects;
+
+student.introduce = function () {
+    return `My name is ${this.name}, ${this.yearLvl} year student and ${this.age} years old.`;
+  };
+  
+console.log(student);
+  
+const introduction = student.introduce();
+console.log(introduction);
+
+
+
 
 
